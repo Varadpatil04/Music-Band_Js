@@ -1,0 +1,90 @@
+
+body {
+
+  background-image: url(https://jooinn.com/images/design-7.jpg);
+  overflow: hidden;
+  object-fit: fill; 
+
+
+
+
+
+
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+span{
+  color: rgb(64, 198, 243);
+}
+span:hover{
+  animation: forwards;
+  transition: 1s ease-in;
+  color: transparent;
+  background: linear-gradient(to right,  red,rgb(37, 162, 239),yellow,green);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.main {
+  flex: 1;
+}
+.card{
+  width: 45%;
+}
+
+.tile-image{
+  margin-right: 50px;
+  float: left;
+  height: 200px;
+  width: 300px;
+  overflow: hidden !important;
+  /* width: 100%; */
+  transition: .3s ease-in-out;
+  border-radius: 2rem;
+}
+.tile-image:hover{
+transform: scale(1.1);
+/* box-shadow: 0 0 1rem black; */
+}
+.left {
+  float: left;
+}
+.right{
+  float: right;
+}
+
+h1 {
+  font-size: 5rem;
+  margin-bottom: 100px;
+}
+footer {
+  text-align: right;
+  color: midnightblue;
+  background: transparent;
+}
+
+@media(max-width:680px){
+  .logo{
+    width: 100px;
+  }
+  h1{
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .card{
+    display: block;
+    width: 100%;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  .card img{
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline;
+  }
+}
+

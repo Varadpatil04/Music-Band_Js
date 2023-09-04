@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    background-image: url(https://jooinn.com/images/design-7.jpg);
+    overflow: hidden;
+    object-fit: fill; 
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: rgb(64, 198, 243);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+  h2{
+    color:  Black;
+    margin-top: 200px;
+    margin-bottom: 0;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  footer {
+    color: purple;
+    font-family: sans-serif;
+  }
+  
+  .w {
+    background-image: url(./Images-band/1.jpg);
+  }
+  
+  .a {
+  background-image: url(./Images-band/2.jpg);
+  }
+  
+  .s {
+  background-image: url(./Images-band/3.jpg);
+  }
+  
+  .d {
+  background-image: url(./Images-band/4.jpg);
+  }
+  
+  .j {
+  background-image: url(./Images-band/5.jpg);
+  }
+  
+  .k {
+  background-image: url(./Images-band/6.jpg);
+  }
+  
+  .l {
+  background-image: url(./Images-band/7.jpg);
+  }
+  
+  .set {
+    margin: 10% auto;
+    margin-top: 20px;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+  }
+  
