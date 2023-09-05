@@ -1,14 +1,15 @@
 
 body {
 
-  background-image: url(https://jooinn.com/images/design-7.jpg);
-  overflow: hidden;
-  object-fit: fill; 
+  background-image: url(./Images-band/Back-ground.jpg);
+  /* overflow: hidden; */
+  /* object-fit: fill;  */
+  background-size: cover;
 
 
 
 
-
+  /* height: 97vh; */
 
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
@@ -17,6 +18,7 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 span{
   color: rgb(64, 198, 243);
 }
@@ -77,7 +79,7 @@ footer {
   .card{
     display: block;
     width: 100%;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 30px;
   }
   .card img{

@@ -1,8 +1,9 @@
 body {
     text-align: center;
-    background-image: url(https://jooinn.com/images/design-7.jpg);
-    overflow: hidden;
-    object-fit: fill; 
+    background-image: url(./Images-band/Back-ground.jpg);
+    /* overflow: hidden;
+    object-fit: fill;  */
+    background-size: cover;
   }
   
   h1 {
