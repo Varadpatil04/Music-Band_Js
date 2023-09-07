@@ -21,13 +21,15 @@ body {
 
 span{
   color: rgb(64, 198, 243);
+
 }
 span:hover{
   animation: forwards;
-  transition: 1s ease-in;
   color: transparent;
   background: linear-gradient(to right,  red,rgb(37, 162, 239),yellow,green);
   background-clip: text;
+  transition: 1s all;
+
   -webkit-background-clip: text;
 }
 .main {

@@ -1,8 +1,11 @@
 body {
   text-align: center;
   background-image: url(./Images-band/Back-ground.jpg);
-  /* overflow: hidden;
-  object-fit: fill;  */
+  /* overflow: hidden;*/
+  /* object-fit: fill;   */
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  /* height: 100dvh; */
   background-size: cover;
 }
 
@@ -59,10 +62,10 @@ background-image: url(./Images-band/tom4.png);
   margin-top: 20px;
 }
 
-.game-over {
+/* .game-over {
   background-color: red;
   opacity: 0.8;
-}
+} */
 
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
